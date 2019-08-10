@@ -1,0 +1,21 @@
+{
+  "name": "wayback-downloader",
+  "version": "1.0.0",
+  "description": "Wayback downloader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wayback",
+    "wayback-machine",
+    "wayback-downloader",
+    "archive.org"
+  ],
+  "author": "Susmith Krishnan",
+  "license": "ISC",
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "split": "^1.0.1"
+  }
+}
