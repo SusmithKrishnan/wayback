@@ -4,7 +4,7 @@ wayback machine API implementation, archive.org downloader
 
 ### ` Get archive list`
 
-```
+```js
 var wayback = require('index.js')
 var url = "https://en.wikipedia.org/wiki/Richard_Stallman"
 
@@ -15,7 +15,7 @@ wayback.getTimeMap(url, function(err,data){
 })
 ```
 output:
-```
+```js
 { original: 'http://en.wikipedia.org:80/wiki/Richard_Stallman',
   timegate: 'http://web.archive.org',
   first:
@@ -44,7 +44,7 @@ output:
 
 ### ` Check availability`
 
-```
+```js
 //check if url is archived, return closest timestamp
 wayback.isAvailable("example.org",function(err,data){
   if(err)
