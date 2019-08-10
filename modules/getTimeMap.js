@@ -5,8 +5,7 @@ module.exports = function (url, callback) {
 	var timelineUrl = 'http://web.archive.org/web/timemap/link/' + url;
 	request(timelineUrl, function(err, res) {
 		if (err) {
-			callback(err, null);
-			return;
+			return callback(err, null);
 		}
 		timemap.parseTimemap(res, callback);
 	});
