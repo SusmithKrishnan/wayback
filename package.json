@@ -1,10 +1,10 @@
 {
-  "name": "wayback-downloader",
+  "name": "wayback",
   "version": "1.0.0",
   "description": "Wayback downloader",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "wayback",
@@ -17,5 +17,9 @@
   "dependencies": {
     "fetch": "^1.1.0",
     "split": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
   }
 }
