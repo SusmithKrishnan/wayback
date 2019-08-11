@@ -1,4 +1,5 @@
 # wayback
+[![Build Status](https://travis-ci.org/SusmithKrishnan/wayback.svg?branch=master)](https://travis-ci.org/SusmithKrishnan/wayback)
 wayback machine API implementation, archive.org downloader
 ## API
 
