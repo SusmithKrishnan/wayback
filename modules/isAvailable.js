@@ -5,7 +5,7 @@ module.exports = function (url, timestamp, callback) {
 	var apiUrl = 'http://archive.org/wayback/available';
   var params = {
     url:url,
-    timestamp: typeof callback === 'undefined' ? "" : timestamp
+    timestamp: typeof timestamp === 'function' ? null : timestamp
   }
 
 	getRequest(apiUrl,params,function(err, res) {
