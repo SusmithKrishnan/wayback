@@ -1,4 +1,5 @@
 # wayback
+[![NPM version](https://badge.fury.io/js/wayback-downloader.svg)](http://badge.fury.io/js/wayback-downloader)
 [![Build Status](https://travis-ci.org/SusmithKrishnan/wayback.svg?branch=master)](https://travis-ci.org/SusmithKrishnan/wayback)
 
 wayback machine API implementation, archive.org downloader
